@@ -20561,7 +20561,7 @@ const st = b.memo(() => {
                   })
                 : u.jsx("img", {
                     className: "small",
-                    src: "/vite.svg",
+                    src: "./vite.svg",
                     alt: "",
                   }),
           }),
