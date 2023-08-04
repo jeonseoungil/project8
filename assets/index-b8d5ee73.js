@@ -27116,14 +27116,12 @@ const qC = b.memo(() => {
                     u.jsx("ul", {
                       children:
                         i.length !== 0
-                          ? i
-                              .slice(0, 3)
-                              .map((c) =>
-                                u.jsx("li", {
-                                  style: { color: "yellow" },
-                                  children: c.name,
-                                })
-                              )
+                          ? i.slice(0, 3).map((c) =>
+                              u.jsx("li", {
+                                style: { color: "yellow" },
+                                children: c.name,
+                              })
+                            )
                           : u.jsx("li", { children: "검색결과 없음" }),
                     }),
                     u.jsx("br", {}),
@@ -27132,18 +27130,16 @@ const qC = b.memo(() => {
                     u.jsx("ul", {
                       children:
                         o.length !== 0
-                          ? o
-                              .slice(0, 3)
-                              .map((c, d) =>
-                                u.jsx(
-                                  "li",
-                                  {
-                                    style: { color: "yellow" },
-                                    children: c.name,
-                                  },
-                                  d
-                                )
+                          ? o.slice(0, 3).map((c, d) =>
+                              u.jsx(
+                                "li",
+                                {
+                                  style: { color: "yellow" },
+                                  children: c.name,
+                                },
+                                d
                               )
+                            )
                           : u.jsx("li", {
                               className: "null",
                               children: "검색결과 없음",
@@ -27155,20 +27151,18 @@ const qC = b.memo(() => {
                     u.jsx("ul", {
                       children:
                         s.length !== 0
-                          ? s
-                              .slice(0, 3)
-                              .map((c) =>
-                                u.jsx("li", {
-                                  style: { color: "yellow" },
-                                  children: u.jsxs("div", {
-                                    children: [
-                                      u.jsx("img", { src: c.image, alt: "" }),
-                                      " ",
-                                      c.album,
-                                    ],
-                                  }),
-                                })
-                              )
+                          ? s.slice(0, 3).map((c) =>
+                              u.jsx("li", {
+                                style: { color: "yellow" },
+                                children: u.jsxs("div", {
+                                  children: [
+                                    u.jsx("img", { src: c.image, alt: "" }),
+                                    " ",
+                                    c.album,
+                                  ],
+                                }),
+                              })
+                            )
                           : u.jsx("li", { children: "검색결과 없음" }),
                     }),
                     u.jsx("br", {}),
@@ -27178,14 +27172,12 @@ const qC = b.memo(() => {
                     u.jsx("ul", {
                       children:
                         l.length !== 0
-                          ? l
-                              .slice(0, 3)
-                              .map((c) =>
-                                u.jsx("li", {
-                                  style: { color: "yellow" },
-                                  children: c.artist,
-                                })
-                              )
+                          ? l.slice(0, 3).map((c) =>
+                              u.jsx("li", {
+                                style: { color: "yellow" },
+                                children: c.artist,
+                              })
+                            )
                           : u.jsx("li", { children: "검색결과 없음" }),
                     }),
                     u.jsx("br", {}),
@@ -27194,14 +27186,12 @@ const qC = b.memo(() => {
                     u.jsx("ul", {
                       children:
                         a.length !== 0
-                          ? a
-                              .slice(0, 3)
-                              .map((c) =>
-                                u.jsx("li", {
-                                  style: { color: "yellow" },
-                                  children: c.artist,
-                                })
-                              )
+                          ? a.slice(0, 3).map((c) =>
+                              u.jsx("li", {
+                                style: { color: "yellow" },
+                                children: c.artist,
+                              })
+                            )
                           : u.jsx("li", { children: "검색결과 없음" }),
                     }),
                   ],
@@ -27956,7 +27946,7 @@ const r5 = () => {
                 children: u.jsx(Re, {
                   to: "/",
                   children: u.jsx("img", {
-                    src: "images/logo_white.jpg",
+                    src: "logo_white.jpg",
                     alt: "",
                   }),
                 }),
